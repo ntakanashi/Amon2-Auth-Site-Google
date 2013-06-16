@@ -2,6 +2,9 @@ Revision history for Perl extension Amon2-Auth-Site-Google
 
 {{$NEXT}}
 
+0.02 2013-06-16T06:52:45Z
+    - fix pod
+
 0.01 2013-06-16T06:42:26Z
 
     - original version

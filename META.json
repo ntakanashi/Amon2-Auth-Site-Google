@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Google auth integration for Amon2",
    "author" : [
       "ntakanashi <ntakanashi666 at gmail.com>"
    ],
@@ -67,5 +67,5 @@
          "web" : "https://github.com/ntakanashi/Amon2-Auth-Site-Google"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

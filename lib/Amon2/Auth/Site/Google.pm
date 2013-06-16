@@ -5,7 +5,7 @@ use JSON;
 use LWP::UserAgent;
 use URI;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 has client_id => (
     is       => 'ro',
@@ -141,7 +141,7 @@ __END__
 
 =head1 NAME
 
-Amon2::Auth::Site::Google - It's new $module
+Amon2::Auth::Site::Google - Google auth integration for Amon2
 
 =head1 SYNOPSIS
 

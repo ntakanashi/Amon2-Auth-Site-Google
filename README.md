@@ -1,6 +1,6 @@
 # NAME
 
-Amon2::Auth::Site::Google - It's new $module
+Amon2::Auth::Site::Google - Google auth integration for Amon2
 
 # SYNOPSIS
 
