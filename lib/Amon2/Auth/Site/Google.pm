@@ -1,11 +1,11 @@
 package Amon2::Auth::Site::Google;
-use Moose;
+use Mouse;
 
 use JSON;
 use LWP::UserAgent;
 use URI;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 has client_id => (
     is       => 'ro',
