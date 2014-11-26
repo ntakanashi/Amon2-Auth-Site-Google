@@ -148,10 +148,12 @@ Amon2::Auth::Site::Google - Google auth integration for Amon2
     #add config
     +{
         Auth => {
-            client_id     => 'client id',
-            client_secret => 'client secret',
-            redirect_url  => 'redirect url',
-            scope         => 'scope'
+	    Google => {
+                client_id     => 'client id',
+                client_secret => 'client secret',
+                redirect_url  => 'redirect url',
+                scope         => ['scope']
+            }
         }
     }
 
@@ -167,7 +169,7 @@ Amon2::Auth::Site::Google - Google auth integration for Amon2
 
             $c->session->set(google => +{
                 access_token  => $access_token,
-                refresh_token => $refresh_token
+                refresh_token => $refresh_token,
                 user          => $user,
             });
 
