@@ -7,7 +7,7 @@ Amon2::Auth::Site::Google - Google auth integration for Amon2
     #add config
     +{
         Auth => {
-	    Google => {
+            Google => {
                 client_id     => 'client id',
                 client_secret => 'client secret',
                 redirect_url  => 'redirect url',
@@ -60,7 +60,6 @@ Amon2::Auth::Site::Google is a Google authenticate module for Amon2
 Get a authenticate URI.
 - `$auth->callback($c:Amon2::Web, $callback:HashRef) : Plack::Response`
 Process the authentication callback dispatching.
-
     - on\_error
 
         on\_error callback function is called when an error occurs.
